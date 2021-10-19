@@ -1,0 +1,79 @@
+@import-normalize;
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+html,
+body {
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+
+  font-family: 'Red Hat Display', sans-serif;
+  color: #000000;
+
+  margin: 0px;
+  padding: 0px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+.card-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: hsl(225, 100%, 94%) url('../images/pattern-background-desktop.svg') 0 0/100% auto
+    no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-card {
+  /* display: flex; */
+  width: 450px;
+  height: 700px;
+  background-color: #ffffff;
+
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.main-card__content {
+  padding: 50px 50px;
+  color: hsl(223, 47%, 23%);
+}
+
+.main-card__title {
+  font-weight: 900;
+  font-size: 28px;
+}
+
+.main-card__subtitle {
+  margin: 20px 0px;
+  font-weight: 400;
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+  line-height: 1.5;
+}
+
+.main-card__cancel-order-btn {
+  margin: 35px 0px;
+  font-weight: 700;
+  font-size: 14px;
+  color: hsl(224, 23%, 55%);;
+  background: none;
+}
