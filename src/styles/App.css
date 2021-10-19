@@ -71,9 +71,15 @@ button::-moz-focus-inner {
 }
 
 .main-card__cancel-order-btn {
-  margin: 35px 0px;
+  margin: 25px 0px;
+  padding: 10px 0px;
   font-weight: 700;
   font-size: 14px;
   color: hsl(224, 23%, 55%);;
   background: none;
+}
+
+.main-card__cancel-order-btn:hover {
+  color: #000000;
+  opacity: 0.9;
 }

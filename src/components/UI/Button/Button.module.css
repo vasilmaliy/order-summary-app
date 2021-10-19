@@ -10,3 +10,10 @@
   font-weight: 700;
   font-size: 16px;
 }
+
+.paymentButton:hover {
+  background-color: hsl(245, 83%, 40%);
+  box-shadow: 0px 25px 30px  hsl(227, 71%, 89%);
+  transition: background-color 0.5s ease;
+}
+
